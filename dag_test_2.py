@@ -7,7 +7,7 @@ from assets import ASSET_TEST_1_FIRST_TASK
 
 
 with DAG(
-    dag_id="test_1",
+    dag_id="test_2",
     start_date=datetime.datetime(2021, 1, 1),
     schedule=[ASSET_TEST_1_FIRST_TASK],
 ):

@@ -5,6 +5,7 @@ from airflow.providers.standard.operators.empty import EmptyOperator
 
 from assets import ASSET_TEST_1_FIRST_TASK
 
+
 with DAG(
     dag_id="test_1",
     start_date=datetime.datetime(2021, 1, 1),
